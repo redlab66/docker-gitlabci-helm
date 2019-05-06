@@ -1,4 +1,5 @@
 FROM alpine:3.6
+LABEL maintainer="RedLab66"
 
 ENV HELM_VERSION    "2.12.2"
 ENV HELM_FILENAME   "helm-v${HELM_VERSION}-linux-amd64.tar.gz"
